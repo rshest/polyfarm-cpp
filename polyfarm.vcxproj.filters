@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\svg_gen.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{3b0be2c0-eaf9-4738-abb6-2eb1b804c248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{cb887189-e2cf-4d8a-b805-ea354fae7e1c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\pentominoes.txt">
+      <Filter>data</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\shape.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rect_contour.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\svg_gen.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vec2.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
